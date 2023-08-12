@@ -24,6 +24,9 @@ namespace VpnSwith {
 			// windowを表示しない
 			ShowInTaskbar = false;
 			WindowState = FormWindowState.Minimized;
+			MaximizeBox = false;
+			MinimizeBox = false;
+			FormBorderStyle = FormBorderStyle.FixedToolWindow;
 
 			// タスクトレイのアイコン
 			notifyIcon = new NotifyIcon();
